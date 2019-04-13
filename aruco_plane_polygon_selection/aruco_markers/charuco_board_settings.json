@@ -1,0 +1,39 @@
+{
+    // squaresX - number of chessboard squares in X direction
+    "squaresX": 8.0
+    // squaresY - number of chessboard squares in Y direction
+    ,
+    "squaresY": 5.0
+    // squareLength - chessboard square side length (usually meters)
+    ,
+    "squareLength": 3.1099999999999999e-02
+    // markerLength - aruco marker side length (same unit than squareLength)
+    ,
+    "markerLength": 1.5709999999999998e-02
+    // charuco_board_image_file - image file containing charuco board
+    ,
+    "charuco_board_image_file": "aruco_markers/charuco_board.png"
+    // 
+    //         aruco_dict_num - Enum number for call for: 
+    //             dictionary = cv2.aruco.getPredefinedDictionary(aruco_dict_num)
+    //         dictionary of markers indicating the type of markers,  The first markers in the dictionary are 
+    //         used to fill the white chessboard squares.
+    //     
+    ,
+    "aruco_dict_num": 0.0
+    // outSize - size of the output image in pixels.
+    ,
+    "outSize": {
+        "type_id": "opencv-matrix",
+        "rows": 2,
+        "cols": 1,
+        "dt": "d",
+        "data": [ 1600.0, 1000.0 ]
+    }
+    // marginSize - minimum margins (in pixels) of the board in the output image.
+    ,
+    "marginSize": 0.0
+    // borderBits - width of the marker borders.
+    ,
+    "borderBits": 1.0
+}
